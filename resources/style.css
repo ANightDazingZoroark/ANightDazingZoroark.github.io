@@ -65,6 +65,6 @@ main {
   background-color: grey;
 }
 
-table, th, td {
+table.socials, th, td {
   border: 1px solid black;
 }
