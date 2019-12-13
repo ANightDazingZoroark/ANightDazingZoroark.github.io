@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="resources/style.css">
+  <title>Prehistoric Rift Mobs</title>
+</head>
+
+<body bgcolor="green">
+  <nav>
+	<a href="index.html">Home</a>
+	<a class="dropdown-btn">Meta Stuff</a>
+	  <div class="dropdown-container">
+	    <a href="blog.html">Blog</a>
+        <a href="music.html">Le Music</a>
+        <a href="holoposting.html">Holoposting</a>
+		<a href="https://discord.gg/XDwgdAS">Discord Server</a>
+      </div>
+	 <a class="dropdown-btn">Prehistoric Rift</a>
+	  <div class="dropdown-container">
+	    <a href="prehistoric_rift.html">Basic Info</a>
+        <a class="active" href="riftmobs.html">Mobs</a>
+        <a href="riftitems.html">Items</a>
+		<a href="https://discord.gg/bP6sAky">Addon Discord</a>
+      </div>
+	 <a class="dropdown-btn">Upcoming Projects...</a>
+	  <div class="dropdown-container">
+	    <a href="borgys_mobs.html">Borgy's Mobs</a>
+	    <a href="pvz_atw.html">Plants vs Zombies: Around the World</a>
+	  </div>
+  </nav>
+  
+  <main>
+    <h1>The Mobs of Prehistoric Rift</h1>
+    <p>
+	Because this addon is new there aren't that many mobs, but more will come in the future. This page will only document the mobs that are currently available in the addon, all upcoming ones are found <a href="https://github.com/ANightDazingZoroark/Prehistoric-Rift-Addon/wiki/Planned-Creature-List">here</a>
+	</p>
+	
+	<p>
+	Also, until I figure out how to make icons, the images used for the mobs will be just a boring placeholder.
+	</p>
+	
+	<h2>Dinosaurs</h2>
+	<table class="bordered">
+	  <tr>
+	    <td>
+		  <img src="resources/temporary.png" width="200" height="200" onClick="document.getElementById('stegosaurus').style.display='block'">
+		  
+		  <div id="stegosaurus" class="popupModal">
+		    <div class="popupBackground">
+		      <span onclick="document.getElementById('stegosaurus').style.display='none'" class="popupExit">&times;</span>
+			    <br />
+				<h2>Stegosaurus</h2>
+				<img src="resources/stegosaurus rift.png">
+				
+				Stegosaurus is a peaceful herbivore that just casually grazes in the plains biomes. Watch out for that spiky tail, as it has proven to be way too deadly to survive a blow from.
+		    </div>
+		  </div>
+		  <br />
+		  Stegosaurus
+		</td>
+	    <td>
+		  <img src="resources/temporary.png" width="200" height="200" onClick="document.getElementById('tyrannosaurus').style.display='block'">
+		  
+		  <div id="tyrannosaurus" class="popupModal">
+		    <div class="popupBackground">
+		      <span onclick="document.getElementById('tyrannosaurus').style.display='none'" class="popupExit">&times;</span>
+			    <br />
+				<h2>Tyrannosaurus</h2>
+				<img src="resources/tyrannosaurus rift.png">
+				
+				Tyrannosaurus is known as the king of the dinosaurs since God knows how long. It's strong jaws and fear-inducing roars are what makes it deserve the title.
+		    </div>
+		  </div>
+		  <br />
+		  Tyrannosaurus
+		</td>
+	  </tr>
+	</table>
+  </main>
+  <script src="resources/scripts.js"></script>
+</body>
+
+</html>
