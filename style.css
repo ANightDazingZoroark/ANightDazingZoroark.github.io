@@ -106,3 +106,24 @@ td {
   position:absolute;
   right:0;top:0
 }
+
+.blog-name {
+  margin: 0;
+  cursor: pointer;
+  font-family: helveticaNeue;
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+h1 a {
+  color: inherit;
+}
+
+.blog-description {
+  margin-left: 17%;
+  padding: 1px 16px;
+  clear:both; 
+  margin:0; 
+  padding:0
+}
