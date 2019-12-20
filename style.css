@@ -107,15 +107,6 @@ td {
   right:0;top:0
 }
 
-.blog-name {
-  margin: 0;
-  cursor: pointer;
-  font-family: helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
-}
-
 h1 a {
   color: inherit;
 }
