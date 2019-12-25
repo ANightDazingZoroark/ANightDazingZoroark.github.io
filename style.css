@@ -131,3 +131,7 @@ h1 a {
   padding-right: 15px;
   margin: 0 25px;
 }
+
+.disqus_thread {
+  background-color: #fff;
+}
