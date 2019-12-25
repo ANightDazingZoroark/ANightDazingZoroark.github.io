@@ -119,6 +119,11 @@ h1 a {
   padding:0
 }
 
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 article.post {
   border: 2px solid black;
 }
