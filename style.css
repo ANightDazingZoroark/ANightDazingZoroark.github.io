@@ -124,6 +124,7 @@ h1 a {
 }
 
 .post {
+  background-color: white;
   border: 2px solid black;
   width: 250px;
   padding-left: 15px;
