@@ -120,16 +120,22 @@ h1 a {
 }
 
 .posts {
-  display: flex;
+  display: table;
+  clear: both;
+  content: "";
 }
 
 .post {
   background-color: #fff;
   border: 2px solid black;
-  width: 250px;
+  width: 200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 3px;
+  float: left;
+  height: 360px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 #disqus_thread {
