@@ -123,6 +123,7 @@ h1 a {
   display: table;
   clear: both;
   content: "";
+  align: center;
 }
 
 .post {
