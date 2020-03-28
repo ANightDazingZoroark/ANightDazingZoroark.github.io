@@ -34,6 +34,4 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
-for (j = ; j < 2; j++){
-  document.getElementById("defaultOpen"+j).click();
-}
+document.getElementById("defaultOpen"+j).click();
