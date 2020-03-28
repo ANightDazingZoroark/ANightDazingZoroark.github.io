@@ -52,6 +52,12 @@ table.bordered tr td {
   text-align: center;
 }
 
+table.bordered tr th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
 table {
   table-layout: fixed ;
   width: 100% ;
