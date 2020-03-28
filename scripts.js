@@ -1,4 +1,4 @@
- function popupModal(){
+ 
  var dropdown = document.getElementsByClassName("dropdown-btn");
  var i;
 
@@ -13,7 +13,6 @@
         dropdownContent.style.display = "block";
       }
     });
-  }
 }
  
 function openTab(evt, tabName) {
