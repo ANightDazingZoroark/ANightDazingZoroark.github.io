@@ -49,7 +49,6 @@ main {
 
 article {
   display: table;
-  clear: both;
   content: "";
   align: center;
   background-color: #fff;
