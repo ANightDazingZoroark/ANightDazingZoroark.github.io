@@ -52,16 +52,6 @@ article {
   clear: both;
   content: "";
   align: center;
-}
-
-.posts {
-  display: table;
-  clear: both;
-  content: "";
-  align: center;
-}
-
-.post {
   background-color: #fff;
   border: 2px solid black;
   width: 200px;
@@ -71,5 +61,12 @@ article {
   float: left;
   height: 360px;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 15px;  
+}
+
+.posts {
+  display: table;
+  clear: both;
+  content: "";
+  align: center;
 }
