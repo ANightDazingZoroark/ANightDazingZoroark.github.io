@@ -34,6 +34,13 @@ nav a:hover, .dropdown-btn:hover {
   color: white;
 }
 
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+
 main {
   margin-left: 15%; /* Same as the width of the sidenav */
   font-size: 20px; /* Increased text to enable scrolling */
