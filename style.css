@@ -50,7 +50,6 @@ main {
 article {
   display: table;
   content: "";
-  align: center;
   background-color: #fff;
   border: 2px solid black;
   width: 200px;
