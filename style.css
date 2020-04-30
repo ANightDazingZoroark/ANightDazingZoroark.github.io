@@ -53,3 +53,10 @@ article {
   content: "";
   align: center;
 }
+
+.posts {
+  display: table;
+  clear: both;
+  content: "";
+  align: center;
+}
