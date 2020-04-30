@@ -54,6 +54,13 @@ article {
   align: center;
 }
 
+.posts {
+  display: table;
+  clear: both;
+  content: "";
+  align: center;
+}
+
 .post {
   background-color: #fff;
   border: 2px solid black;
