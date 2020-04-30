@@ -21,8 +21,7 @@
 title: ANightDazingZoroark's website
 lang: english
 description: Just my personal website
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://anightdazingzoroark.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nightdazer22
 github_username:  ANightDazingZoroark
 
