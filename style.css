@@ -40,11 +40,74 @@ nav a:hover, .dropdown-btn:hover {
   padding-left: 8px;
 }
 
-
 main {
   margin-left: 15%; /* Same as the width of the sidenav */
   font-size: 20px; /* Increased text to enable scrolling */
   padding: 0px 10px;
+}
+
+@media only screen and (max-width: 1240px){
+  main {
+    margin-left: 17.5%; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+}
+
+@media only screen and (max-width: 1080px){
+  main {
+    margin-left: 20%; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+}
+
+@media only screen and (max-width: 940px){
+  main {
+    margin-left: 22.5%; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+}
+
+@media only screen and (max-width: 850px){
+  main {
+    margin-left: 25%; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+}
+
+@media only screen and (max-width: 750px){
+  main {
+    margin-left: 27.5%; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  main {
+    margin-left: 30%; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+}
+
+@media only screen and (max-width: 640px){
+  main {
+    margin-left: 32.5%; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  main {
+    margin-left: 35%; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
 }
 
 article {
