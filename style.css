@@ -110,7 +110,7 @@ main {
   }
 }
 
-article {
+section {
   display: table-cell;
   content: "";
   background-color: #fff;
