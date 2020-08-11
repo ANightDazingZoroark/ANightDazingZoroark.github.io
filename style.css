@@ -110,27 +110,6 @@ main {
   }
 }
 
-section {
-  display: table-cell;
-  content: "";
-  background-color: #fff;
-  border: 2px solid black;
-  width: 200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 3px;
-  float: left;
-  height: 500px;
-  padding-bottom: 15px;  
-}
-
-.posts {
-  display: table;
-  clear: both;
-  content: "";
-  align: center;
-}
-
 .popupModal {
   z-index:3;
   display:none;
