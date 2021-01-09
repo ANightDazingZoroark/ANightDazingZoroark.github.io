@@ -199,3 +199,11 @@ td {
   border: 1px solid #ccc;
   border-top: none;
 }
+
+button {
+  background-color: #90ee90;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border-color: #111;
+}
