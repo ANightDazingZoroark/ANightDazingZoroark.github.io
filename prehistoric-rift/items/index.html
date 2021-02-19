@@ -3,7 +3,7 @@ layout: default
 title: Items | Prehistoric Rift
 ---
 <h1>Items</h1>
-The following is a list of items that are currently available in the addon.
+The following is a list of items that are currently available in the addon. You can click on the images to see more info and their crafting recipes.
 
 <h2>Tools</h2>
 <table class="bordered">
@@ -81,7 +81,7 @@ The following is a list of items that are currently available in the addon.
 			<h2>Cannon</h2>
 			<img src="cannon.png" width="80" height="80" style="float:left; padding:1 15px;">
 				  
-			This placeable weapon can be used to launch cannonballs for destructive power!
+			This placeable weapon can be used to launch cannonballs for destructive power! Requires cannonballs to work.
 			<div style="clear:both;"></div>
 			<hr>
 			<h3>Crafting recipe</h3>
@@ -92,6 +92,29 @@ The following is a list of items that are currently available in the addon.
 	  <br />
 	  Cannon
 	</td>
+    <td>
+		<img src="cannonball.png" width="48" height="48" onClick="document.getElementById('cannonball').style.display='block'">
+			
+		<div id="cannonball" class="popupModal">
+		  <div class="popupBackground">
+			<span onclick="document.getElementById('cannonball').style.display='none'" class="popupExit">&times;</span>
+			<br />
+			<h2>Cannonball</h2>
+			<img src="cannonball.png" width="80" height="80" style="float:left; padding:1 15px;">
+				  
+			This heavy item serves as ammunition for the cannon.
+			<div style="clear:both;"></div>
+			<hr>
+			<h3>Crafting recipe</h3>
+			<img src="cannon crafting.png">
+				  
+		  </div>
+		</div>
+	  <br />
+	  Cannonball
+	</td>
+  </tr>
+  <tr>
 	<td>
 		<img src="apatosaurus platform.png" width="48" height="48" onClick="document.getElementById('apatosaurus platform').style.display='block'">
 			
