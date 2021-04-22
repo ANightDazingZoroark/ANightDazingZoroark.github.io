@@ -40,6 +40,10 @@ nav a:hover, .dropdown-btn:hover {
   padding-left: 8px;
 }
 
+body {
+  background-color: #808080;
+}
+
 main {
   margin-left: 13%; /* Same as the width of the sidenav */
   font-size: 20px; /* Increased text to enable scrolling */
@@ -125,7 +129,7 @@ main {
 
 .popupBackground {
   margin:auto;
-  background-color:#fff;
+  background-color: #808080;
   position:relative;
   padding:0;
   outline:0;
