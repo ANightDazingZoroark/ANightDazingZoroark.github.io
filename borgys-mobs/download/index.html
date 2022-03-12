@@ -11,14 +11,14 @@ You can download the latest version of Borgy's Mobs directly here.
   <ul>
     <li>This addon may not work correctly with other addons that edit player and vanilla mob behaviors</li>
     <li>You must be on the latest version of Minecraft Bedrock Edition</li>
-    <li>You must turn on Holiday Creator Features, Advanced Modding Capabilities, Commands, Upcoming Creator Features, Creation of Custom Biomes, and Experimental Molang Features in your world</li>
+    <li>You must turn on Vanilla Experiments, Holiday Creator Featues, Custom biomes, Additional Modding Capabilities, Upcoming Creator Features, Gametest Framework, Molang Features, and cheats in your world</li>
   </ul>
 </p>
 
 <br />
 
-<button onclick="window.open('Borgys Mobs.mcaddon')">
-    Download 1.3.3
+<button onclick="window.open('Borgy\'s Mobs.mcaddon')">
+    Download 1.4.0
 </button>
 
 <br />
@@ -34,31 +34,119 @@ Be sure to check out the <a href="https://prehistoric-rift.fandom.com/wiki/Borgy
 <hr />
 <h2>Showcase Video</h2>
 
-<iframe width="982" height="552" src="https://www.youtube.com/embed/SGHr9gn5trk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="982" height="562" src="https://www.youtube.com/embed/qG0HpEf5Nk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr/>
 
-<h2>1.3.3 Patch Notes</h2>
-<p>This update adds compatibility with <a href="https://mcpedl.com/prehistoric-rift/">Prehistoric Rift</a> (specifically version 0.6.1, yay) alongside other small changes. Make sure to put the behavior and resource packs of Prehistoric Rift above the behavior and resource packs of Borgy&#39;s Mobs. It should look something like this:
-  <img src="https://user-images.githubusercontent.com/56536620/129476590-37d58d5c-b53e-4d7f-8fd9-635068895615.png" alt="image"></p>
-  <h3 id="bonus-features-if-you-use-prehistoric-rift">Bonus Features if you use Prehistoric Rift</h3>
-  <ul>
-  <li>Trikes will gain their rival buff in the presence of wild Bakunawas</li>
-  <li>The perks from using armor from Borgy&#39;s Mobs apply properly</li>
-  <li>Most vanilla mobs will fight back properly when forced attacked by a creature from either Prehistoric Rift or Borgy&#39;s Mobs</li>
-  <li>The following creatures will now run from a Parasaurolophus&#39;s scare ability<ul>
-  <li>Houndeye</li>
-  <li>Hoteye</li>
-  <li>All Headcrabs</li>
-  <li>All Headcrab Zombies</li>
-  <li>Sigbin</li>
-  <li>Sarimanok</li>
-  </ul>
-  </li>
-  </ul>
-  <h3 id="other-small-changes">Other small changes</h3>
-  <ul>
-  <li>Did minor adjustments to Bakunawa and Icthyosaur navigation</li>
-  <li>Witches now attack headcrabs and headcrab zombies</li>
-  </ul>
-  
+<h2>1.4.0 Patch Notes</h2>
+<p>aaaaaay another new update. do note that this is not compatible with prehistoric rift atm until i manage to get compatibility related stuff done</p>
+<h3 id="new-creatures">New Creatures</h3>
+<ul>
+<li>Added Lavawyrm<ul>
+<li>Giant lizards that live in the nether </li>
+<li>They swim in the oceans of lava but will occasionally come to land</li>
+<li>When they find a target, they surround themselves in fire and rush towards them, and any mob that gets too close to them gets burnt</li>
+<li>Can be tamed and the rider gets fire resistance</li>
+<li>Their flame charge and bites can be activated when ridden by using a Lavawyrm staff, crafted using Lavawyrm hearts they may drop, sticks, and bones</li>
+<li>The flame charge has a 10 second cooldown however</li>
+</ul>
+</li>
+<li>Added Plaguebird<ul>
+<li>Are passive creatures that live underground, but going too close to them can get you poisoned</li>
+<li>They can be bred with rotten flesh or spider eyes</li>
+<li>They can be killed for plaguebird skin or plaguebird glands</li>
+<li>The plaguebird skin can be used to craft plague armor, which is basically a plague doctor costume, and it protects you from poison and withering</li>
+<li>The plaguebird gland can be brewed with akward potions to create poison aura potions, which let you poison most mobs surrounding you for a minute when you drink it</li>
+</ul>
+</li>
+<li>Added Manananggal<ul>
+<li>A nocturnal creature that hunts players and villagers, by day they will burn</li>
+<li>They can be tamed with hearts</li>
+<li>Once tamed however, they will not attack, not burn in sunlight, and can be ridden, but they will not follow you around, hence the need for a leash</li>
+<li>If you want to control them while riding them, you need a heart on a stick. Recipe should be obvious</li>
+</ul>
+</li>
+<li>Added Floating Headcrab Zombie<ul>
+<li>Spawn in the snowy peaks</li>
+<li>Headcrabs but they can fly</li>
+</ul>
+</li>
+<li>Added Aquatic Headcrab Zombie<ul>
+<li>Spawn in the oceans</li>
+<li>Headcrabs but aquatic</li>
+</ul>
+</li>
+</ul>
+<h3 id="changes-to-existing-creatures">Changes to Existing Creatures</h3>
+<ul>
+<li>All Headcrab Zombies<ul>
+<li>Will only attack their targets if they see them</li>
+<li>Will now only attack animals, players, and mobs that can be infected by headcrabs</li>
+<li>Evoker Headcrab Zombies no longer spawn naturally</li>
+<li>The hitboxes on the heads will no longer suffocate</li>
+</ul>
+</li>
+<li>All tameable creatures<ul>
+<li>Removed the tame indicator for tamed creatures</li>
+</ul>
+</li>
+<li>Bakunawa<ul>
+<li>Wild adult Bakunawas will now go towards the nearest available body of water at day when on land</li>
+<li>Reduced aggressiveness of wild Bakunawas so that they won&#39;t commit genocide on all the fish, should also reduce lag</li>
+<li>Changed how swapping between the bite and breath attack work. Now, when holding the Bakunawa Staff, right click/tap once for using the breath/bite and right click/tap and hold to switch</li>
+</ul>
+</li>
+<li>Houndeye<ul>
+<li>Wild Houndeyes will now peacefully approach players that have any kind of cooked meat in their hand</li>
+<li>Changed how their attack sounds play</li>
+</ul>
+</li>
+<li>Icthyosaur<ul>
+<li>Reduced aggressiveness of wild Icthyosaurs</li>
+<li>Wild Icthyosaurs will now peacefully approach players that have any kind of raw meat in their hand</li>
+</ul>
+</li>
+<li>Sigbin<ul>
+<li>Wild Sigbins will now peacefully approach players that have rotten flesh or headcrab meat in their hand</li>
+<li>Changed textures</li>
+</ul>
+</li>
+</ul>
+<h3 id="changes-to-items">Changes To Items</h3>
+<ul>
+<li>Bile Launcher<ul>
+<li>Will now only work when there&#39;s meat in the holder&#39;s inventory</li>
+<li>Whenever you fire bile with it meat will be depleted</li>
+<li>Increased durability to 150</li>
+</ul>
+</li>
+<li>Headcrab Launcher<ul>
+<li>Will now only work when there&#39;s enderpearls in the holder&#39;s inventory</li>
+<li>Whenever you fire a headcrab with it enderpearls will be depleted</li>
+<li>Increased durability to 50</li>
+</ul>
+</li>
+<li>Sonic Cannon<ul>
+<li>Will now only work when there&#39;s redstone in the holder&#39;s inventory</li>
+<li>Whenever you fire a sonic blast with it redstone will be depleted</li>
+<li>Increased durability to 100</li>
+</ul>
+</li>
+</ul>
+<h3 id="changes-to-existing-structures">Changes to Existing Structures</h3>
+<ul>
+<li>Bakunawa Nest<ul>
+<li>Made it so they will now generate at the ocean floor properly</li>
+<li>You may now find Bakunawa Scales in the chests</li>
+</ul>
+</li>
+</ul>
+<h3 id="other-changes">Other Changes</h3>
+<ul>
+<li>Added a reminder to turn on experimental features in the world if the player hasn&#39;t done so</li>
+</ul>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li>Fixed Headcrab Zombies leaving a lot of headcrabs when dying (#8)</li>
+<li>Fixed Icthyosaurs and Bakunawas going ham when ridden in water (#9)</li>
+</ul>
