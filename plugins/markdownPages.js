@@ -28,7 +28,6 @@ export function markdownPages() {
 
                 // Home uses the existing index.html
                 if (name === "home") {
-                    pages[name] = template;
                     continue;
                 }
 
