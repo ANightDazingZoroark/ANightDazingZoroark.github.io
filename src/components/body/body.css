@@ -1,0 +1,34 @@
+.main-content {
+    min-height: calc(100vh - 70px);
+
+    margin-left: 270px;
+    padding: 40px;
+}
+
+.main-content p {
+    margin-top: 0;
+}
+
+/* =========================
+   Mobile
+   ========================= */
+
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+
+        padding: 80px 24px 40px;
+    }
+}
+
+
+/* =========================
+   Small Phones
+   ========================= */
+
+@media (max-width: 400px) {
+    .main-content {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}

@@ -1,0 +1,246 @@
+/* =========================
+   Sidebar
+   ========================= */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 270px;
+    height: 100vh;
+
+    background: #181818;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow-y: auto;
+    z-index: 1000;
+
+    box-shadow: 3px 0 12px rgba(0, 0, 0, 0.15);
+}
+
+
+/* =========================
+   Sidebar Header
+   ========================= */
+
+.sidebar-header {
+    padding: 28px 24px;
+    border-bottom: 1px solid #303030;
+}
+
+.sidebar-header h1 {
+    margin: 0;
+    font-size: 1.35rem;
+    font-weight: 600;
+}
+
+
+/* =========================
+   Navigation
+   ========================= */
+
+.sidebar-menu {
+    padding: 12px 0;
+}
+
+.nav-item {
+    width: 100%;
+}
+
+.nav-link, .nav-item-toggle {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    min-height: 48px;
+    padding: 12px 24px;
+
+    border: none;
+    background: transparent;
+
+    color: #ddd;
+
+    font-family: inherit;
+    font-size: 0.95rem;
+    text-align: left;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.15s ease,
+        color 0.15s ease;
+}
+
+.nav-link:hover, .nav-item-toggle:hover {
+    background: #292929;
+    color: white;
+}
+
+
+/* =========================
+   Submenu Toggle
+   ========================= */
+
+.nav-item-toggle {
+    justify-content: space-between;
+}
+
+.arrow {
+    font-size: 1.4rem;
+    line-height: 1;
+
+    transform: rotate(0deg);
+
+    transition: transform 0.2s ease;
+}
+
+.arrow-open {
+    transform: rotate(90deg);
+}
+
+
+/* =========================
+   Submenu
+   ========================= */
+
+.nav-item-submenu {
+    max-height: 0;
+    overflow: hidden;
+
+    background: #101010;
+
+    transition:
+        max-height 0.25s ease,
+        padding 0.25s ease;
+}
+
+.nav-item-submenu.submenu-open {
+    max-height: 500px;
+}
+
+.nav-item-submenu a {
+    display: block;
+
+    padding: 11px 20px 11px 42px;
+
+    color: #aaa;
+
+    font-size: 0.9rem;
+    line-height: 1.35;
+
+    text-decoration: none;
+
+    border-left: 3px solid transparent;
+
+    transition:
+        background-color 0.15s ease,
+        color 0.15s ease,
+        border-color 0.15s ease;
+}
+
+.nav-item-submenu a:hover {
+    background: #242424;
+    color: white;
+    border-left-color: #777;
+}
+
+/* =========================
+   Mobile Menu Button
+   ========================= */
+
+.mobile-menu-button {
+    display: none;
+
+    position: fixed;
+    top: 14px;
+    left: 14px;
+
+    width: 46px;
+    height: 46px;
+
+    padding: 10px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #181818;
+
+    cursor: pointer;
+
+    z-index: 1100;
+}
+
+.mobile-menu-button span {
+    display: block;
+
+    width: 100%;
+    height: 2px;
+
+    margin: 5px 0;
+
+    background: white;
+
+    transition: transform 0.2s ease;
+}
+
+
+/* =========================
+   Mobile Overlay
+   ========================= */
+
+.sidebar-overlay {
+    display: none;
+
+    position: fixed;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.5);
+
+    z-index: 900;
+}
+
+
+/* =========================
+   Mobile
+   ========================= */
+
+@media (max-width: 768px) {
+    .mobile-menu-button {
+        display: block;
+    }
+
+    .sidebar {
+        width: 280px;
+
+        transform: translateX(-100%);
+
+        transition: transform 0.25s ease;
+    }
+
+    .sidebar.sidebar-open {
+        transform: translateX(0);
+    }
+
+    .sidebar-overlay {
+        display: block;
+    }
+}
+
+
+/* =========================
+   Small Phones
+   ========================= */
+
+@media (max-width: 400px) {
+    .sidebar {
+        width: 85vw;
+        max-width: 280px;
+    }
+}

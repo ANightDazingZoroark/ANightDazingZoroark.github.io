@@ -1,0 +1,18 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(var(--gallery-columns), 1fr);
+    gap: 16px;
+
+    margin: 24px 0;
+}
+
+.gallery img {
+    display: block;
+
+    width: 100%;
+    height: 200px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+}

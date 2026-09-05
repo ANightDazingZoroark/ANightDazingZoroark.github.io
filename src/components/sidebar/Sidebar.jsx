@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import './sidebar.css'
 
 //the sidebar itself
 function SideBar({ pages }) {
