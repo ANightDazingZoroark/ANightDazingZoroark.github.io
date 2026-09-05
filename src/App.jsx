@@ -1,4 +1,5 @@
-import { SideBar, Body, Footer } from "./SiteBody";
+import { Body, Footer } from "./SiteBody";
+import { SideBar } from "./Sidebar";
 
 const content = import.meta.glob(
     "./content/*.md",
