@@ -6,6 +6,7 @@ Rifted Valkyrium is a fork of [Unvalkyried Heavens](https://github.com/LordDarth
 * Blocks that provide buoyancy to ships, allowing for proper seafaring vessels
 * Fixed the broken rudders at last
 * Bundled VS Core (aka the base mod) back with VS Control and VS World.
+* Backported oaring from Create Aeronautics/Sable
 
 Future plans basically involve making it more like the library mod VS2 on modern versions is right now, with some addons that use this mod as a library being planned. Still though, this mod is pretty experimental, so expect some strange bugs.
 
