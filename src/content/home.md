@@ -11,6 +11,7 @@ Outside of modding, I have an undergraduate degree in Computer Engineering, thou
     <card image="riftlibrary.png" subtext="RiftLibrary" page="/riftlibrary/"></card>
     <card image="no_peaceful_mode.png" subtext="No Peaceful Mode" page="/no-peaceful-mode/"></card>
     <card image="rifted_valkyrium.png" subtext="Rifted Valkyrium" page="/rifted-valkyrium/"></card>
+    <card image="squirrel_witchery.png" subtext="Squirrel Witchery" page="/squirrel-witchery/"></card>
 </div>
 
 ## Discontinued Projects

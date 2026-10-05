@@ -31,6 +31,9 @@ const pages = {
             "rifted-valkyrium": {
                 label: "Rifted Valkyrium"
             },
+            "squirrel-witchery": {
+                label: "Squirrel Witchery"
+            },
             "borgys-mobs": {
                 label: "Borgy's Mobs (Discontinued)"
             },
