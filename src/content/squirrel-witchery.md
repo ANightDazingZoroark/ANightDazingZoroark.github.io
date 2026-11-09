@@ -6,6 +6,7 @@ Squirrel Witchery is a Thaumcraft 6 addon centered around the VTuber [Ayunda Ris
 ## Links
 * [Curseforge](https://www.curseforge.com/minecraft/mc-mods/squirrel-witchery)
 * [GitHub Repository](https://github.com/Rift-Modding-Group/Squirrel-Witchery)
+* [Wiki](https://riftmodding.miraheze.org/wiki/Squirrel_Witchery)
 
 I'm not sure about uploading to Modrinth btw, since Thaumcraft 6 hasn't been uploaded on it yet.
 

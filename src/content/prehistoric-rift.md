@@ -11,6 +11,7 @@ Still though, the mod remains in heavy development, as as of right now, is under
 * [CurseForge](https://www.curseforge.com/minecraft/mc-mods/prehistoric-rift)
 * [Modrinth](https://modrinth.com/mod/prehistoric-rift)
 * [GitHub Repository](https://github.com/Rift-Modding-Group/Prehistoric-Rift-Mod)
+* [Wiki](https://riftmodding.miraheze.org/wiki/Prehistoric_Rift)
 * [Last Bedrock Release](https://github.com/ANightDazingZoroark/Prehistoric-Rift-Addon/releases/tag/0.7.0.1-beta) (warning: no longer supported)
 
 ## Gallery

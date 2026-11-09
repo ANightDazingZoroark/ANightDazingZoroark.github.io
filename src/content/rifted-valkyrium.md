@@ -1,5 +1,5 @@
 # Rifted Valkyrium
-<img src="/images/rifted_valkyrium.png" alt="No Peaceful Mode" class="image-left" width="128"/>
+<img src="/images/rifted_valkyrium.png" alt="Rifted Valkyrium" class="image-left" width="128"/>
 
 Rifted Valkyrium is a fork of [Unvalkyried Heavens](https://github.com/LordDarthDan/Unvalkyried-Heavens) by LordDarthDan, which in turn, is a fork of Valkyrien Skies 1 by Triode et al, and aims to be a form of LTS for 1.12.2. Some notable additions are:
 * The use of Nvidia PhysX as a physics backend, allowing for stable ship physics and ship collisions
@@ -16,6 +16,7 @@ And for the love of god, just because "Nvidia" is in the name of the physics lib
 * [Curseforge](https://www.curseforge.com/minecraft/mc-mods/rifted-valkyrium/)
 * [Modrinth](https://modrinth.com/mod/rifted-valkyrium)
 * [GitHub Repository](https://github.com/Rift-Modding-Group/Rifted-Valkyrium)
+* [Wiki](https://riftmodding.miraheze.org/wiki/Rifted_Valkyrium)
 
 ## Gallery
 <gallery columns="2">
